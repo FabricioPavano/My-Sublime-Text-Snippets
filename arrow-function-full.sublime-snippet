@@ -1,0 +1,11 @@
+<!-- ar -->
+<!-- Arrow Function -->
+
+<snippet>
+	<content><![CDATA[
+(${1:param}) => {
+	
+}
+]]></content>
+	<tabTrigger>ar</tabTrigger>
+</snippet>

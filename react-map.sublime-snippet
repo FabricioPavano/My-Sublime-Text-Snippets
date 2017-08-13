@@ -1,0 +1,13 @@
+<!-- rm -->
+<!-- React (JSX) Map-->
+
+<snippet>
+	<content><![CDATA[
+{${1:list}s.map((${1}) =>
+  <${2:CompName} key={} ${3:props} />
+)}
+]]></content>
+	<tabTrigger>rm</tabTrigger>
+</snippet>
+
+

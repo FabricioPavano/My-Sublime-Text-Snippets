@@ -1,0 +1,23 @@
+<!-- cc -->
+<!-- Class Component -->
+
+<snippet>
+	<content><![CDATA[
+class ${1:CompName} extends React.Component {
+  render() {
+    return (
+			${2}
+    );
+  }
+}
+]]></content>
+	<tabTrigger>cc</tabTrigger>
+</snippet>
+
+
+
+
+
+
+
+

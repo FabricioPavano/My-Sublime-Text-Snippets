@@ -1,0 +1,11 @@
+<!-- cr -->
+<!-- Conditional Rendering -->
+
+<snippet>
+	<content><![CDATA[
+{${1:condition} &&
+  ${2:<div></div>}
+}
+]]></content>
+	<tabTrigger>cr</tabTrigger>
+</snippet>

@@ -1,0 +1,11 @@
+<!-- arr -->
+<!-- Arrow Function Full -->
+
+<snippet>
+	<content><![CDATA[
+const ${1} = () => {
+	
+}
+]]></content>
+	<tabTrigger>arr</tabTrigger>
+</snippet>

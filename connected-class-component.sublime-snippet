@@ -1,0 +1,37 @@
+<!-- ccc -->
+<!-- Connected Class Component -->
+
+<snippet>
+	<content><![CDATA[
+import React from 'react';
+import { connect } from 'react-redux';
+import { bindActionCreators } from 'redux';
+
+class ${1:CompName} extends React.Component {
+  render() {
+    return (
+			${2}
+    );
+  }
+}
+
+const mapStateToProps = (state) => {
+	return {}
+}
+
+const mapDispatchToProps = (dispatch) => {
+  return {}
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(${1:CompName});
+]]></content>
+	<tabTrigger>ccc</tabTrigger>
+</snippet>
+
+
+
+
+
+
+
+

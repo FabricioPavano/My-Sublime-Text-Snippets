@@ -1,0 +1,12 @@
+<!-- fcomp -->
+<!-- Functional Component -->
+
+<snippet>
+	<content><![CDATA[
+const ${1:CompName} = ({}) => (
+  ${2}
+)
+]]></content>
+	<tabTrigger>fc</tabTrigger>
+</snippet>
+

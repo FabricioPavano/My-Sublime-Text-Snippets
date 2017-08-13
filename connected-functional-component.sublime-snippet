@@ -1,0 +1,33 @@
+<!-- cfc -->
+<!-- Connected Functional Component -->
+
+<snippet>
+	<content><![CDATA[
+import React from 'react';
+import { connect } from 'react-redux';
+import { bindActionCreators } from 'redux';
+
+const ${1:CompName} = ({}) => (
+  ${2}
+)
+
+const mapStateToProps = (state) => {
+	return {}
+}
+
+const mapDispatchToProps = (dispatch) => {
+  return {}
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(${1:CompName});
+]]></content>
+	<tabTrigger>cfc</tabTrigger>
+</snippet>
+
+
+
+
+
+
+
+
