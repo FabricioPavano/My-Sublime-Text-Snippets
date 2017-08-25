@@ -1,0 +1,14 @@
+<!-- ac -->
+<!-- Action Creator -->
+
+<snippet>
+	<content><![CDATA[
+export const ${1:actionName} = (${2}) => {
+	return {
+		type: ${3},
+	  title,
+	}
+}
+]]></content>
+	<tabTrigger>ac</tabTrigger>
+</snippet>

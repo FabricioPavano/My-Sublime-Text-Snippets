@@ -1,0 +1,60 @@
+<!-- ff -->
+<!-- Form File | Bootstrap - React - Redux -->
+
+<snippet>
+	<content><![CDATA[
+import React from 'react'
+import {FormGroup, FormControl, ControlLabel, HelpBlock, Button } from 'react-bootstrap'
+import { connect } from 'react-redux';
+import ReactOnRails from 'react-on-rails';
+//import { updateField1, updateField2 } from '../actions/appActionCreators'
+
+
+const ${1:Name}Form = React.createClass({
+  getValidationState() {
+  },
+
+  submitForm(e) {
+    e.preventDefault()
+  },
+
+  csrfToken(){
+    return ReactOnRails.authenticityToken()
+  },
+
+  render() {
+    return (
+      <form onSubmit={ this.submitForm }>
+      	// Add form fields here using snippets
+        
+        <input type="hidden" name="authenticity_token" value={ this.csrfToken() } /> 
+
+        <Button type="submit">
+          Submit
+        </Button>
+      </form>
+    );
+  }
+});
+
+const mapStateToProps = (state, ownProps) => { 
+  return {
+		//form: state.form
+	}
+}
+
+const mapDispatchToProps = (dispatch) => {
+	return {
+		//handleField1Change: (event) => { dispatch(updateField1(event.target.value)) },
+	}
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(${1}Form)
+
+]]></content>
+	<tabTrigger>ff</tabTrigger>
+</snippet>
+
+
+
+

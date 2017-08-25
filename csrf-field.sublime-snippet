@@ -1,0 +1,11 @@
+<!-- csrff -->
+<!-- CSRF Hidden Field -->
+
+<snippet>
+	<content><![CDATA[
+<input type="hidden" name="authenticity_token" value={this.state.csrfToken} /> 
+]]></content>
+	<tabTrigger>csrff</tabTrigger>
+</snippet>
+
+

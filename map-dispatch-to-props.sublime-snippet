@@ -1,0 +1,13 @@
+<!-- mdtp -->
+<!-- Map State To Props -->
+
+<snippet>
+	<content><![CDATA[
+const mapDispatcheToProps = (dispatch) => {
+	return {
+		
+	}
+}
+]]></content>
+	<tabTrigger>mdtp</tabTrigger>
+</snippet>

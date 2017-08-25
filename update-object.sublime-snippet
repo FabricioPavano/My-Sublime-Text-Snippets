@@ -1,0 +1,14 @@
+<!-- ruo -->
+<!-- Reducer: Update Object  -->
+
+<snippet>
+	<content><![CDATA[
+case ${1}:
+  return Object.assign({}, state, {
+    ${2:attr}: action.${2}
+  })
+]]></content>
+	<tabTrigger>ruo</tabTrigger>
+</snippet>
+
+

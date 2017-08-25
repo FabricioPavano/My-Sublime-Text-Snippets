@@ -1,0 +1,11 @@
+<!-- ic -->
+<!-- Import Constant -->
+
+<snippet>
+	<content><![CDATA[
+import { ${1:CONST} } from '../constants/appConstants';
+]]></content>
+	<tabTrigger>ic</tabTrigger>
+</snippet>
+
+

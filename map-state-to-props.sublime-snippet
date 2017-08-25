@@ -1,0 +1,15 @@
+<!-- mstp -->
+<!-- Map State To Props -->
+
+<snippet>
+	<content><![CDATA[
+const mapStateToProps = (state, ownProps) => {
+	return {
+		
+	}
+}
+]]></content>
+	<tabTrigger>mstp</tabTrigger>
+</snippet>
+
+

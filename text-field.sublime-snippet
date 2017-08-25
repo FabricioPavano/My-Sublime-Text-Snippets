@@ -1,0 +1,19 @@
+<!-- text -->
+<!-- React - Redux - Bootstrap Form Text Field -->
+
+<snippet>
+	<content><![CDATA[
+<FormGroup controlId="${1:name}">
+  <ControlLabel>${1/(.+)/\u$1/g}</ControlLabel>
+  <FormControl
+    name="${1}"
+    type="text"
+    value={this.props.${1}}
+    placeholder="Enter ${1}"
+    onChange={this.props.handle${1/(.+)/\u$1/g}Change}
+  />
+  <FormControl.Feedback />
+</FormGroup>
+]]></content>
+	<tabTrigger>text</tabTrigger>
+</snippet>

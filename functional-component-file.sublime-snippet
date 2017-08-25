@@ -1,0 +1,22 @@
+<!-- fcf -->
+<!-- Functional Component File -->
+
+<snippet>
+	<content><![CDATA[
+import PropTypes from 'prop-types';
+import React from 'react';
+
+const ${1:${TM_FILENAME/(\w+)(Component?)\.js(x?)/\1/g}} = ({}) => (
+  ${2}
+)
+
+${1}.propTypes = {
+  //field: PropTypes.string.isRequired,
+  //handler: PropTypes.func.isRequired,
+};
+
+export default ${1};
+]]></content>
+	<tabTrigger>fcf</tabTrigger>
+</snippet>
+

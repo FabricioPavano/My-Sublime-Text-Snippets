@@ -1,0 +1,18 @@
+<!-- textarea -->
+<!-- React - Redux - Bootstrap Form Text Area Field -->
+
+<snippet>
+	<content><![CDATA[
+<FormGroup controlId="${1:name}">
+  <ControlLabel>${1/(.+)/\u$1/g}</ControlLabel>
+  <FormControl 
+    name="model[field]"
+    componentClass="textarea" 
+    placeholder="Enter ${1}" 
+    value={this.props.${1}}
+    onChange={this.props.handle${1/(.+)/\u$1/g}Change}
+  />
+</FormGroup>
+]]></content>
+	<tabTrigger>taf</tabTrigger>
+</snippet>

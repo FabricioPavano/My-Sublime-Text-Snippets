@@ -3,7 +3,7 @@
 
 <snippet>
 	<content><![CDATA[
-class ${1:CompName} extends React.Component {
+class ${1:${TM_FILENAME/(\w+)(Component?)\.js(x?)/\1/g}} extends React.Component {
   render() {
     return (
 			${2}

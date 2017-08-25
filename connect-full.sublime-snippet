@@ -1,0 +1,26 @@
+<!-- connf-->
+<!-- Connect Full -->
+
+<snippet>
+	<content><![CDATA[
+const mapStateToProps = (state, ownProps) => {
+	return {
+		
+	}
+}
+
+const mapDispatchToProps = (dispatch) => {
+	return {
+		
+	}
+}
+
+const ${1:CompName} = connect(
+  mapStateToProps, mapDispatchToProps
+)(${2})
+
+]]></content>
+	<tabTrigger>connf</tabTrigger>
+</snippet>
+
+

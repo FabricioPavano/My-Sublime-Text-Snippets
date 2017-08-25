@@ -1,0 +1,11 @@
+<!-- ec -->
+<!-- Export Constant -->
+
+<snippet>
+	<content><![CDATA[
+export const ${1:CONST} = '${1:CONST}';
+]]></content>
+	<tabTrigger>ec</tabTrigger>
+</snippet>
+
+

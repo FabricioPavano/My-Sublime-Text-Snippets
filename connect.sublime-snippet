@@ -1,0 +1,15 @@
+<!-- conn-->
+<!-- Connect -->
+
+<snippet>
+	<content><![CDATA[
+
+const ${1:CompName} = connect(
+  mapStateToProps, mapDispatchToProps
+)(${2})
+
+]]></content>
+	<tabTrigger>conn</tabTrigger>
+</snippet>
+
+
